@@ -4,6 +4,8 @@ This is a continuation of the **Cat Clicker**. This repo includes the added func
 
 The JavaScript is now organized within a MVC (Model, View, Controller) architecture.
 
+* [DEMO]( https://mccleary.github.io/Cat-Clicker-Pro/)
+
 ## To use this app
 - Click on the name of the cat, on the left, that you would like to see and their picture will appear on the right.
 - Click on the cat image as many times as you would like to increase the click count.
