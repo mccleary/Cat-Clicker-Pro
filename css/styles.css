@@ -1,0 +1,127 @@
+body {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 25px;
+  padding: 5%;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+img {
+  border-radius: 3%;
+  width: 80%;
+  height: auto;
+}
+
+h2 {
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 1px;
+}
+
+#cat {
+  padding: 30px 0;
+}
+#cat-count {
+  padding: 0 10px;
+}
+
+.responsive {
+  width: 80%;
+  height: auto;
+}
+
+
+/************* Dropdown Button *************/
+
+/* Drop down menu from w3schools at: https://www.w3schools.com/howto/howto_js_dropdown.asp */
+/* Button color from buttongenerator.com at: https://www.bestcssbuttongenerator.com/#/31 */
+.dropbtn {
+    -moz-box-shadow:inset 0px 1px 0px 0px #fbafe3;
+  	-webkit-box-shadow:inset 0px 1px 0px 0px #fbafe3;
+  	box-shadow:inset 0px 1px 0px 0px #fbafe3;
+  	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ff5bb0), color-stop(1, #ef027d));
+  	background:-moz-linear-gradient(top, #ff5bb0 5%, #ef027d 100%);
+  	background:-webkit-linear-gradient(top, #ff5bb0 5%, #ef027d 100%);
+  	background:-o-linear-gradient(top, #ff5bb0 5%, #ef027d 100%);
+  	background:-ms-linear-gradient(top, #ff5bb0 5%, #ef027d 100%);
+  	background:linear-gradient(to bottom, #ff5bb0 5%, #ef027d 100%);
+  	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bb0', endColorstr='#ef027d',GradientType=0);
+  	background-color:#ff5bb0;
+  	-moz-border-radius:6px;
+  	-webkit-border-radius:6px;
+  	border-radius:6px;
+  	border:1px solid #ee1eb5;
+  	display:inline-block;
+  	cursor:pointer;
+  	color:#000000;
+  	font-family:fantasy;
+  	font-size:18px;
+  	font-weight:bold;
+  	padding:6px 24px;
+  	text-decoration:none;
+  	text-shadow:0px 1px 0px #c70067;
+}
+
+/* The container <div> - needed to position the dropdown content */
+#cat-list {
+    position: relative;
+    /* display: inline-block; */
+    float: left;
+    list-style: none;
+}
+
+/* Dropdown Content (Hidden by Default) */
+#cat-list {
+    /* display: none; */
+    /* position: absolute; */
+    font-size:22px;
+    background-color: #ff5bb0;
+    width: 100%;
+    min-width: 105px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    overflow: auto;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ef027d), color-stop(1, #ff5bb0));
+  	background:-moz-linear-gradient(top, #ef027d 5%, #ff5bb0 100%);
+  	background:-webkit-linear-gradient(top, #ef027d 5%, #ff5bb0 100%);
+  	background:-o-linear-gradient(top, #ef027d 5%, #ff5bb0 100%);
+  	background:-ms-linear-gradient(top, #ef027d 5%, #ff5bb0 100%);
+  	background:linear-gradient(to bottom, #ef027d 5%, #ff5bb0 100%);
+  	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef027d', endColorstr='#ff5bb0',GradientType=0);
+  	background-color:#ef027d;
+}
+
+/* Links inside the dropdown */
+#cat-list a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+#cat-list a:hover {background-color: #fbafe3}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { ... }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
