@@ -27,38 +27,23 @@
               <h2>Choose a cat from the left</h2>
             </div>
             <div id="cat">
-                <h2 id="cat-name"></h2>
-                <div id="cat-count"></div>
-                <img id="cat-img" src="" alt="cute cat">
+              <h2 id="cat-name"></h2>
+              <div id="cat-count"></div>
+              <img id="cat-img" src="" alt="cute cat">
             </div>
 
-            <form class="admin" action="index.html" method="get">
-              <p>
-                <label for="admin">
-                <button class="admin" type="button" name="admin">Admin</button><br>
-                </label>
-              </p>
-              <p>
-                <label>Name:
-                  <input type="text" name="cat-name" size="32" maxlength="100">
-                </label>
-              </p>
-              <p>
-                <label>ImgURL:
-                  <input type="text" name="cat-img" size="30" maxlength="100">
-                </label>
-              </p>
-              <p>
-                <label># clicks:
-                  <input type="text" name="cat-count" size="30" maxlength="100">
-                </label>
-              </p>
-              <button class="save"  type="button" name="save">Save</button>
-              <button class="cancel"  type="button" name="cancel">Cancel</button>
-              <!-- <input type="submit" name="save" value="Save">
-              <input type="submit" name="cancel" value="Cancel"> -->
-
-            </form>
+            <!-- Admin Button -->
+            <button id="adminBtn">Admin</button>
+            <div id="admin">
+              <form id="adminForm">
+                <p>Cat Name:<input type= "text" class= "adminInput" id="adminCatName" size="20" maxlength="60"></p>
+                <p>Img Url:<input type= "text" class= "adminCatUrl" id="adminCatURL" size="20" maxlength="60"></p>
+                <p># Clicks:<input type= "text" class= "adminCatClicks" id="adminCatClicks" size="20" maxlength="60"></p>
+              </form>
+                <button id="adminSave">Save</button>
+                <button id="adminCancel">Cancel</button>
+            </div>
+            <!-- Admin div END -->
           </div>
         </div>
     </div>
